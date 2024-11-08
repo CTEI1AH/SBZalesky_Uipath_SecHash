@@ -1,0 +1,36 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Exists_Login&Sequence_2",
+        "newRow&Sequence_5",
+        "Client&Sequence_10",
+        "Client_ID&Sequence_10",
+        "Client_Name&Sequence_10",
+        "Client_Country&Sequence_10",
+        "WIID&Sequence_10",
+        "Client_WIID&Sequence_10",
+        "Client_URL&Sequence_10",
+        "Client_Hash&Sequence_10",
+        "DT_All&Sequence_1",
+        "DT_WL5&Sequence_1",
+        "ExtractDataTable&Sequence_2",
+        "My_mail&Sequence_2",
+        "My_pass&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
