@@ -102,7 +102,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ACME_NavigateToWorkItemDetails" sap:VirtualizedContainerService.HintSize="571.9999999999999,552" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ACME_NavigateToWorkItemDetails" sap:VirtualizedContainerService.HintSize="629.9999999999999,554.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="PageURL" />
     </Sequence.Variables>
@@ -111,13 +111,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="502,529.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="30393d32-56f2-4bb3-ad9e-1d17f9058458" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="502,532" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="30393d32-56f2-4bb3-ad9e-1d17f9058458" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="468,287.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="468,290" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -128,7 +128,7 @@
                 <OutArgument x:TypeArguments="x:String">[out_WorkItemsNavigateURL]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[Path.Combine(in_ACME_WorkItemsURL + in_WIID)]</InArgument>
+                <InArgument x:TypeArguments="x:String">[Path.Combine(in_ACME_WorkItemsURL, in_WIID)]</InArgument>
               </Assign.Value>
             </Assign>
             <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="434,110" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[out_WorkItemsNavigateURL]" Version="V3" />
